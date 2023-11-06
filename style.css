@@ -1,0 +1,92 @@
+body {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh;
+    background-color:  hsl(217, 54%, 11%);
+    font-family: "Outfit", sans-serif;
+}
+
+.card-main-container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    max-width: 450px;
+    height: 700px;
+    border-radius: 25px;
+    box-shadow: hsla(0, 0%, 4%, 0.221) 1px 30px 25px 15px;
+    padding: 20px;
+    background-color: hsl(216, 50%, 16%);
+   
+}
+
+.card-img img {
+    height: 400px;
+    width: 400px;
+    border-radius: 15px;
+}
+
+.card-text {
+    width: 400px;
+  height: 700px;
+}
+
+.main-title {
+    font-size: 24px;
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    margin-top: 20px; 
+}
+
+.sub-title {
+    font-size: 18px;
+    color: hsl(215, 51%, 70%);
+    font-weight: 400;
+    margin-top: 20px;
+    line-height: 1.5em;
+}
+
+.eth {
+    color:hsl(178, 100%, 50%);
+    font-weight: 600;
+}
+
+
+.flex {
+    display:flex;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+}
+
+
+.timer {
+    color:hsl(215, 51%, 70%);
+    font-weight: 600;
+}
+
+hr {
+    width: 350px;
+    
+}
+
+span {
+    color: white;
+}
+
+.credits {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    color:hsl(215, 51%, 70%);
+}
+
+
+
+.avatar{
+    border: 1px solid white;
+    border-radius: 50px;
+    margin-right: 1rem;
+    width: 50px;
+    height: 50px;
+}
+
